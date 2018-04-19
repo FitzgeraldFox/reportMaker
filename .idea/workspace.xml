@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0d50811-5562-48ae-aa31-77e8528c1e86" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/examples/excelExample/IPTemplate.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/excelExample/excelExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pdfExample/pdfExample.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExcelMaker.php" afterDir="false" />
+    <list default="true" id="e0d50811-5562-48ae-aa31-77e8528c1e86" name="Default" comment="delete idea">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/reportMaker.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,18 +26,24 @@
     <splitter split-orientation="horizontal" split-proportion="0.65822786">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ReportFactory.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ReportFactory.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ReportFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+                <state relative-caret-position="228">
+                  <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
                   <folding>
                     <element signature="e#105#123#0#PHP" expanded="true" />
                     <element signature="e#436#586#0#PHP" />
-                    <element signature="e#2102#2702#0#PHP" />
-                    <element signature="e#2591#2649#0#PHP" />
-                    <element signature="e#3569#3769#0#PHP" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.gitignore">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -90,11 +98,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="excelExample.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="excelExample.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/examples/excelExample/excelExample.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+                <state relative-caret-position="240">
+                  <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -108,11 +116,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="pdfExample.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="pdfExample.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/examples/pdfExample/pdfExample.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="450">
-                  <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+                  <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -160,6 +168,7 @@
         <option value="$PROJECT_DIR$/examples/pdfExample/pdfExample.php" />
         <option value="$PROJECT_DIR$/examples/pdfExample/index.twig" />
         <option value="$PROJECT_DIR$/src/ReportFactory.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -216,8 +225,7 @@
             <path>
               <item name="reportMaker" type="b2602c69:ProjectViewProjectNode" />
               <item name="reportMaker" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="examples" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pdfExample" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -264,27 +272,28 @@
       <option name="presentableId" value="Default" />
       <updated>1524042055741</updated>
       <workItem from="1524042057788" duration="14596000" />
-      <workItem from="1524121628978" duration="15976000" />
+      <workItem from="1524121628978" duration="17040000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30572000" />
+    <option name="totallyTimeSpent" value="31636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49843588" visible="true" weight="0.11567164" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="2" sideWeight="0.7309698" weight="0.060234543" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49843588" visible="true" weight="0.11567164" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295099" />
+      <window_info id="Structure" order="2" sideWeight="0.7309698" weight="0.060234543" />
       <window_info id="Favorites" order="1" sideWeight="0.26903024" side_tool="true" weight="0.1369936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,7 +302,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -331,9 +339,6 @@
           <folding>
             <element signature="e#105#123#0#PHP" expanded="true" />
             <element signature="e#436#586#0#PHP" />
-            <element signature="e#2102#2702#0#PHP" />
-            <element signature="e#2591#2649#0#PHP" />
-            <element signature="e#3569#3769#0#PHP" />
           </folding>
         </state>
       </provider>
@@ -531,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/excelExample/excelExample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/pdfExample/index.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -548,21 +546,32 @@
     <entry file="file://$PROJECT_DIR$/examples/pdfExample/pdfExample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/excelExample/excelExample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ReportFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="90" column="13" lean-forward="true" selection-start-line="90" selection-start-column="13" selection-end-line="90" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
           <folding>
             <element signature="e#105#123#0#PHP" expanded="true" />
             <element signature="e#436#586#0#PHP" />
-            <element signature="e#2102#2702#0#PHP" />
-            <element signature="e#2591#2649#0#PHP" />
-            <element signature="e#3569#3769#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
