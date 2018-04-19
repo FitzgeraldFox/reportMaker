@@ -1,0 +1,15 @@
+{
+    "name": "vagrant/report-maker",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Меньшенин Андрей Олегович",
+            "email": "menshenin@tochka.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.2",
+        "dompdf/dompdf": "^0.8.2",
+        "twig/twig": "^2.4"
+    }
+}

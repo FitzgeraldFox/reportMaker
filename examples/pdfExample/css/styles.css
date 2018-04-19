@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/calibri.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/calibrib.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/verdana.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Verdana';
+    src: url('../fonts/verdanab.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+#top * {
+    font-family: Calibri;
+    color: #538DD9;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#top {
+    border: 2px solid #538DD5;
+    padding: 10px 40px;
+    position: relative;
+}
+
+#top .top_text p {
+    margin: 0;
+    display: inline-block;
+}
+
+#top .top_text p:first-child {
+    margin-right:  40px;
+}
+
+#common * {
+    font-family: Verdana;
+}
+
+#common :first-child :first-child {
+    font-weight: bold;
+}
+
+#commonTable tr td.input {
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+    max-width: 330px;
+}
+
+#commonTable td:first-child {
+    padding-right: 20px;
+}
+
+img.logo {
+    max-width: 249px;
+}
+
+.agreementsTable td {
+    vertical-align: top;
+}
+
+.top_text p {
+    margin: 0;
+    display: inline-block;
+}
+
+#commonTable tr td {
+    vertical-align: top;
+}
+
+#paramsTable {
+    border: 2px solid #000;
+    border-spacing: 0;
+}
+
+#paramsTable td {
+    border: 1px solid #000;
+}
+
+#logo {
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
