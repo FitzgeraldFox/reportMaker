@@ -23,6 +23,22 @@ $file = new ExcelReport(
             ]
         ]
     ],
+    '',
     __DIR__ . '/excelExample.xlsx');
+
+$file->generate();
+
+$file = new ExcelReport(
+    [
+        0 => [
+            'E7' => 'testName',
+            'E8' => '12.12.2017'
+        ],
+        1 => [
+            'E24' => 'TestAddress'
+        ]
+    ],
+    __DIR__ . '/IPTemplate.xlsx',
+    __DIR__ . '/excelExample2.xlsx');
 
 $file->generate();

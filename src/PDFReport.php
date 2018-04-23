@@ -30,9 +30,6 @@ class PDFReport extends AbstractReport
     public function generate()
     {
         $templateBody = $this->generateHTML();
-        file_put_contents(__DIR__ . '/pdfExample.html', $templateBody);
-
-        $dompdf = new Dompdf();
 
         $pdfOptionsArray = [
             'isHtml5ParserEnabled' => true,
@@ -44,6 +41,8 @@ class PDFReport extends AbstractReport
             $pdfOptionsArray[$key] = $value;
         }
         $options = new Options($pdfOptionsArray);
+
+        $dompdf = new Dompdf($pdfOptionsArray);
 
         $dompdf->setOptions($options);
 

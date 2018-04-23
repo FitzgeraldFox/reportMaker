@@ -18,6 +18,10 @@ $file = new PDFReport(
             'Сумма Процентов, руб.' => '24 493,15'
         ]
     ],
-    __DIR__
+    __DIR__,
+    [],
+    [
+        'defaultPaperOrientation' => 'landscape'
+    ]
 );
 file_put_contents(__DIR__ . '/pdfExample.pdf', $file->generate());
