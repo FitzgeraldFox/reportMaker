@@ -1,13 +1,12 @@
 <?php
 namespace Tochka\ReportMaker\Examples;
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/src/ReportFactory.php');
+require_once('../../vendor/autoload.php');
+require_once('../../src/PDFReport.php');
 
-use Tochka\ReportMaker\reportFactory;
+use Tochka\ReportMaker\PDFReport;
 
-$file = new ReportFactory(
-    'Pdf',
+$file = new PDFReport(
     [
         'test' => 'test!!!',
         'monthAmount' => [
