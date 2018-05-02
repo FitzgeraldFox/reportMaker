@@ -2,8 +2,6 @@
 
 namespace Tochka\ReportMaker;
 
-require_once('AbstractReport.php');
-
 class CsvReport extends AbstractReport
 {
     protected $csvDelimiter;

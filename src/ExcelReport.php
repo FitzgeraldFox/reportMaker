@@ -2,8 +2,6 @@
 
 namespace Tochka\ReportMaker;
 
-require_once('AbstractReport.php');
-
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 

@@ -1,8 +1,4 @@
 <?php
-namespace Tochka\ReportMaker\Examples;
-
-require_once($_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/src/CsvReport.php');
 
 use Tochka\ReportMaker\CsvReport;
 

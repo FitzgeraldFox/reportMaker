@@ -2,8 +2,6 @@
 
 namespace Tochka\ReportMaker;
 
-require_once('AbstractReport.php');
-
 use Dompdf\Dompdf;
 use Dompdf\Options;
 use Twig_Environment;

@@ -1,8 +1,4 @@
 <?php
-namespace Tochka\ReportMaker\Examples;
-
-require_once('../../vendor/autoload.php');
-require_once('../../src/PDFReport.php');
 
 use Tochka\ReportMaker\PDFReport;
 

@@ -1,8 +1,4 @@
 <?php
-namespace Tochka\ReportMaker\Examples;
-
-require_once( '../../vendor/autoload.php');
-require_once('../../src/ExcelReport.php');
 
 use Tochka\ReportMaker\ExcelReport;
 
