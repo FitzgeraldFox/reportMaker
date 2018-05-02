@@ -1,15 +1,21 @@
 {
-    "name": "report-maker",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Меньшенин Андрей Олегович",
-            "email": "menshenin@tochka.com"
-        }
-    ],
-    "require": {
-        "phpoffice/phpspreadsheet": "^1.2",
-        "dompdf/dompdf": "^0.8.2",
-        "twig/twig": "^2.4"
+  "name": "report-maker",
+  "description": "Extension for Laravel for making reports",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Меньшенин Андрей Олегович",
+      "email": "menshenin@tochka.com"
     }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.2",
+    "dompdf/dompdf": "^0.8.2",
+    "twig/twig": "^2.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tochka\\JsonRpc\\": "src/"
+    }
+  }
 }
