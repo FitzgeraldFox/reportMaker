@@ -41,11 +41,12 @@ class PDFReport implements IGeneratable
         }
         $options = new Options($pdfOptionsArray);
 
-        $dompdf = new Dompdf($pdfOptionsArray);
+        $dompdf = new Dompdf();
 
         $dompdf->setOptions($options);
 
         $dompdf->loadHtml($templateBody);
+        $dompdf->setBasePath($this->templatePath);
         $dompdf->render();
 
         return $dompdf->output();

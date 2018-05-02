@@ -19,7 +19,7 @@ class CsvReport implements IGeneratable
     {
         $csvContent = '';
         foreach ($this->data as $row) {
-            $csvContent .= implode($this->csvDelimiter, $row) . "\n";
+            $csvContent .= implode($this->csvDelimiter, $row) . PHP_EOL;
         }
         return $csvContent;
     }
