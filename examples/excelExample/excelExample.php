@@ -22,7 +22,7 @@ $file = new ExcelReport(
     '',
     __DIR__ . '/excelExample.xlsx');
 
-$file->generate();
+$file->save();
 
 $file = new ExcelReport(
     [
@@ -37,4 +37,4 @@ $file = new ExcelReport(
     __DIR__ . '/IPTemplate.xlsx',
     __DIR__ . '/excelExample2.xlsx');
 
-$file->generate();
+$file->save();

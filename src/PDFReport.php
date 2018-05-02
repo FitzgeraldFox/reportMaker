@@ -7,8 +7,9 @@ use Dompdf\Options;
 use Twig_Environment;
 use Twig_Loader_Filesystem;
 
-class PDFReport extends AbstractReport
+class PDFReport implements IGeneratable
 {
+    protected $data;
     protected $twigOptions;
     protected $pdfOptions;
     protected $templatePath;

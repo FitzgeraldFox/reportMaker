@@ -5,8 +5,9 @@ namespace Tochka\ReportMaker;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 
-class ExcelReport extends AbstractReport
+class ExcelReport implements ISaveable
 {
+    protected $data;
     protected $type;
     protected $outputPath;
     protected $templatePath;
@@ -26,7 +27,7 @@ class ExcelReport extends AbstractReport
         $this->templatePath = $template_path;
     }
 
-    public function generate()
+    public function save()
     {
         if (empty($this->templatePath)) {
             $spreadsheet = new Spreadsheet();

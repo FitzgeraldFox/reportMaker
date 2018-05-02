@@ -2,8 +2,9 @@
 
 namespace Tochka\ReportMaker;
 
-class CsvReport extends AbstractReport
+class CsvReport implements IGeneratable
 {
+    protected $data;
     protected $csvDelimiter;
 
     public function __construct(
