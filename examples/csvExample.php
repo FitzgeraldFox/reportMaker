@@ -1,5 +1,7 @@
 <?php
 
+require_once '../vendor/autoload.php';
+
 use Tochka\ReportMaker\CsvReport;
 
 $file = new CsvReport(

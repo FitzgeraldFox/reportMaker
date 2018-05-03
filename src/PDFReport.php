@@ -41,7 +41,7 @@ class PDFReport implements IGeneratable
         }
         $options = new Options($pdfOptionsArray);
 
-        $dompdf = new Dompdf();
+        $dompdf = new Dompdf($pdfOptionsArray);
 
         $dompdf->setOptions($options);
 

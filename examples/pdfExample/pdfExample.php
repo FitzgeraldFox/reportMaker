@@ -1,4 +1,5 @@
 <?php
+require_once '../../vendor/autoload.php';
 
 use Tochka\ReportMaker\PDFReport;
 
@@ -16,8 +17,6 @@ $file = new PDFReport(
     ],
     __DIR__,
     [],
-    [
-        'defaultPaperOrientation' => 'landscape'
-    ]
+    ['defaultPaperOrientation' => 'landscape']
 );
 file_put_contents(__DIR__ . '/pdfExample.pdf', $file->generate());
