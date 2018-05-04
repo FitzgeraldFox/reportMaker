@@ -16,6 +16,7 @@ $file = new PDFReport(
         ]
     ],
     __DIR__,
+    '',
     [],
     ['defaultPaperOrientation' => 'landscape']
 );

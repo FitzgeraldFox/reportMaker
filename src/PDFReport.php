@@ -13,15 +13,22 @@ class PDFReport implements IGeneratable
     protected $twigOptions;
     protected $pdfOptions;
     protected $templatePath;
+    protected $templateName;
 
     public function __construct(
         array $data,
         string $template_path,
+        string $template_name,
         array $twig_options = [],
         array $pdf_options = [])
     {
         $this->data = $data;
         $this->templatePath = $template_path;
+        if (empty($template_name)) {
+            $this->templateName = 'index.twig';
+        } else {
+            $this->templateName = $template_name;
+        }
         $this->twigOptions = $twig_options;
         $this->pdfOptions = $pdf_options;
     }
@@ -56,6 +63,6 @@ class PDFReport implements IGeneratable
     {
         $loader = new Twig_Loader_Filesystem($this->templatePath);
         $twig = new Twig_Environment($loader, $this->twigOptions);
-        return $twig->render('index.twig', $this->data);
+        return $twig->render($this->templateName, $this->data);
     }
 }
