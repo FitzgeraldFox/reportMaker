@@ -1,12 +1,12 @@
-#ReportMaker
-##Описание
+# ReportMaker
+## Описание
 ReportMaker умеет создавать документы в форматах pdf, xlsx/xls, csv.
 
 Для создания Pdf используется пакет Dompdf/Dompdf (https://github.com/Dompdf/Dompdf)
 
 Для создания Excel испольуется пакет PhpOffice/Phpspreadsheet (https://github.com/PHPOffice/PhpSpreadsheet)
 ## Использование
-###Создание Pdf
+### Создание Pdf
 Пример создания можно посмотреть в examples/pdfExample/pdfExample.php
 
 Чтобы создать Pdf, нужно создать шаблон twig.
@@ -21,7 +21,7 @@ ReportMaker умеет создавать документы в форматах
 
 Метод generate возвращает содержимое созданного файла.
 
-###Создание Excel
+### Создание Excel
 Примеры создания можно посмотреть в examples/excelExample/excelExample.php
 
 Если нет excel-шаблона, на основе которого надо создать новый файл,
@@ -38,7 +38,7 @@ ReportMaker умеет создавать документы в форматах
 
 Метод save сохраняет сгенерированный файл.
 
-###Создание Csv
+### Создание Csv
 Для создания Csv надо передать массив данных, и разделитель (по умолчанию - ",")
 
 Метод generate возвращает содержимое созданного файла.
